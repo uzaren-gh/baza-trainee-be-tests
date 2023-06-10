@@ -1,5 +1,19 @@
 {
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo 'running jslint'"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "cypress": "^12.14.0"
+    "cypress": "^12.13.0",
+    "eslint-plugin-cypress": "^2.13.3"
   }
 }
